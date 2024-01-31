@@ -15,11 +15,68 @@
             <h1>Minha página</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Sobre mim</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#contact">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <section id="about">
+        <div class="container">
+            <div>
+                <h2>Sobre Mim</h2>
+                <h2>Nome: Lucas Pasquali Jardim</h2>
+                <h2>Idade: 29 anos</h2>
+                <h2>Hobby: Jogar videogame e programar</h2>
+                <h2>Jogo favorito: Metal Gear Solid</h2>
+                <h2>Heroi favorito: Homem Aranha</h2>
+            </div>
+            <img class="my-photo" src="imagens/avatar.png" alt="Foto do avatar">
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Entre em contato</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu email" required>
+                        <input type="tel" placeholder="Telefone (Opcional)">
+                        <textarea placeholder="Sua mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="social">
+                    <h3>Me siga</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-me no facebook">
+                                <img src="imagens/facebook.png" alt="Icone do Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-me no Instagram">
+                                <img src="imagens/instagram.png" alt="Icone do Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-me no Twitter">
+                                <img src="imagens/twitter.png" alt="Icone do Twitter">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Todos os direitos reservados 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
